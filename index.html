@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programa Fullbody — Off Season Jiu Jitsu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-top">
+        <h1>FULLBODY 4×</h1>
+        <span class="header-badge">OFF SEASON JIU JITSU</span>
+      </div>
+      <p>Low volume · Alta intensidade · Segunda / Quarta / Sexta / Sábado</p>
+    </div>
+
+    <div class="week-bar">
+      <div class="day-cell gym">
+        <div class="day-ab">Seg</div>
+        <div class="day-lb">FB1</div>
+      </div>
+      <div class="day-cell jiu">
+        <div class="day-ab">Ter</div>
+        <div class="day-lb">JIU</div>
+      </div>
+      <div class="day-cell gym">
+        <div class="day-ab">Qua</div>
+        <div class="day-lb">FB2</div>
+      </div>
+      <div class="day-cell jiu">
+        <div class="day-ab">Qui</div>
+        <div class="day-lb">JIU</div>
+      </div>
+      <div class="day-cell gym">
+        <div class="day-ab">Sex</div>
+        <div class="day-lb">FB3</div>
+      </div>
+      <div class="day-cell gym">
+        <div class="day-ab">Sáb</div>
+        <div class="day-lb">FB4</div>
+      </div>
+      <div class="day-cell rest">
+        <div class="day-ab">Dom</div>
+        <div class="day-lb">ATIVO</div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="tab-bar">
+        <button class="tab active" onclick="show('fb1', this)">
+          FB1 — Seg
+        </button>
+        <button class="tab" onclick="show('fb2', this)">FB2 — Qua</button>
+        <button class="tab" onclick="show('fb3', this)">FB3 — Sex</button>
+        <button class="tab" onclick="show('fb4', this)">FB4 — Sáb</button>
+        <button class="tab" onclick="show('prog', this)">Progressão</button>
+        <button class="tab" onclick="show('rec', this)">Recuperação</button>
+      </div>
+
+      <!-- ── FB1 ── -->
+      <div id="s-fb1" class="session active">
+        <div class="session-title">FB1 — SEGUNDA</div>
+        <div class="session-focus">
+          Terra · Supino inclinado · Pull-up · OHP · Rosca direta
+        </div>
+
+        <div class="sl">Compostos</div>
+        <div class="ex-list">
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Levantamento terra convencional</div>
+              <div class="ex-note">
+                Top set pesado após 3 subidas progressivas de aquecimento
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">1 × 4–5</div>
+              <div class="ex-rpe">RPE 9</div>
+            </div>
+          </div>
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Supino inclinado com barra</div>
+              <div class="ex-note">
+                Top set · depois 1 backoff com 80% da carga até ~8–10 reps
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">1 × 4–5 + 1 backoff</div>
+              <div class="ex-rpe">RPE 9 / RPE 7</div>
+            </div>
+          </div>
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Pull-up (pegada pronada, lastrada)</div>
+              <div class="ex-note">
+                Adicione peso assim que dominar o próprio corpo em 2×6 limpo
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 4–5</div>
+              <div class="ex-rpe">RPE 9</div>
+            </div>
+          </div>
+          <div class="ex main">
+            <div>
+              <div class="ex-name">OHP com barra (em pé)</div>
+              <div class="ex-note">
+                Press estrito — core travado, sem hiperextender lombar
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 5</div>
+              <div class="ex-rpe">RPE 8</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sl">Braço</div>
+        <div class="ex-list">
+          <div class="ex">
+            <div>
+              <div class="ex-name">Rosca direta com barra</div>
+              <div class="ex-note">Sem balanço — falha na única série</div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">1 × 8–10</div>
+              <div class="ex-rpe">falha</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sl">Core + Cardio</div>
+        <div class="ex-list">
+          <div class="ex core">
+            <div>
+              <div class="ex-name">Toes to bar</div>
+              <div class="ex-note">
+                Danaher protocol — compressão ativa de quadril, sem balanço na
+                descida
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × falha</div>
+              <div class="ex-rpe">—</div>
+            </div>
+          </div>
+          <div class="ex cardio">
+            <div>
+              <div class="ex-name">Assault bike / remo ergométrico — HIIT</div>
+              <div class="ex-note">
+                10 seg all-out · 50 seg leve · 8 rounds (~10 min)
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">8 rounds</div>
+              <div class="ex-rpe">máximo</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tip">
+          O terra é o primeiro exercício por um motivo — é o que mais exige do
+          sistema nervoso central. Nunca troque a ordem. Aquece bem, sobe a
+          carga em 3 subidas progressivas e vai fundo no top set.
+        </div>
+      </div>
+
+      <!-- ── FB2 ── -->
+      <div id="s-fb2" class="session">
+        <div class="session-title">FB2 — QUARTA</div>
+        <div class="session-focus">
+          Zercher · Supino plano · Remada · RDL · Tríceps
+        </div>
+
+        <div class="sl">Compostos</div>
+        <div class="ex-list">
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Agachamento Zercher</div>
+              <div class="ex-note">
+                Barra nos cotovelos dobrados — postura ereta forçada, core
+                brutal. Transferência direta pra clinch e double leg
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 4–5</div>
+              <div class="ex-rpe">RPE 8–9</div>
+            </div>
+          </div>
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Supino reto com barra</div>
+              <div class="ex-note">
+                Top set · 1 backoff com 80% · escápula retraída e deprimida o
+                tempo todo
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">1 × 4–5 + 1 backoff</div>
+              <div class="ex-rpe">RPE 9 / RPE 7</div>
+            </div>
+          </div>
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Remada curvada com barra</div>
+              <div class="ex-note">
+                Cotovelos junto ao corpo — retração escapular no topo, sem usar
+                momentum
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 5–6</div>
+              <div class="ex-rpe">RPE 8</div>
+            </div>
+          </div>
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Terra romeno (RDL)</div>
+              <div class="ex-note">
+                Femoral sob tensão controlada — desça devagar, sinta o
+                alongamento antes de subir
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 6–8</div>
+              <div class="ex-rpe">RPE 7–8</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sl">Braço</div>
+        <div class="ex-list">
+          <div class="ex">
+            <div>
+              <div class="ex-name">Tríceps testa com barra EZ</div>
+              <div class="ex-note">
+                Cotovelos apontados pro teto — amplitude completa, falha na
+                única série
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">1 × 8–10</div>
+              <div class="ex-rpe">falha</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sl">Core + Cardio</div>
+        <div class="ex-list">
+          <div class="ex core">
+            <div>
+              <div class="ex-name">Toes to bar</div>
+              <div class="ex-note">
+                Controle total na descida — não deixa cair
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × falha</div>
+              <div class="ex-rpe">—</div>
+            </div>
+          </div>
+          <div class="ex cardio">
+            <div>
+              <div class="ex-name">Circuito kettlebell</div>
+              <div class="ex-note">
+                Swing 15 reps → Farmer carry 30m → 60 seg descanso · 4 rounds
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">4 rounds</div>
+              <div class="ex-rpe">controlado</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tip">
+          O Zercher vai parecer estranho nas primeiras semanas. A posição força
+          o tronco a ficar ereto ou a barra cai — é exatamente o que acontece
+          quando você tenta um double leg e o oponente pressiona pra baixo.
+        </div>
+      </div>
+
+      <!-- ── FB3 ── -->
+      <div id="s-fb3" class="session">
+        <div class="session-title">FB3 — SEXTA</div>
+        <div class="session-focus">
+          Búlgaro · Chin-up lastrada · Inclinado c/ halteres · Desenvolvimento ·
+          Rosca martelo
+        </div>
+
+        <div class="sl">Compostos</div>
+        <div class="ex-list">
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Agachamento búlgaro com halteres</div>
+              <div class="ex-note">
+                Perna traseira elevada — quadril abaixo do joelho, amplitude
+                total. Não corra nesse exercício
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 5 por lado</div>
+              <div class="ex-rpe">RPE 8–9</div>
+            </div>
+          </div>
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Chin-up lastrada (pegada supinada)</div>
+              <div class="ex-note">
+                Varia o ângulo da pronada — mais bíceps e dorsal baixo
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 4–5</div>
+              <div class="ex-rpe">RPE 9</div>
+            </div>
+          </div>
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Supino inclinado com halteres</div>
+              <div class="ex-note">
+                Maior amplitude que barra — alonga o peitoral na descida, pausa
+                leve no fundo
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 8–10</div>
+              <div class="ex-rpe">falha na última</div>
+            </div>
+          </div>
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Desenvolvimento com halteres sentado</div>
+              <div class="ex-note">
+                Amplitude maior que barra — deltóide anterior e médio completos
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 8–10</div>
+              <div class="ex-rpe">RPE 8</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sl">Braço</div>
+        <div class="ex-list">
+          <div class="ex">
+            <div>
+              <div class="ex-name">Rosca martelo com halteres</div>
+              <div class="ex-note">
+                Braquial e antebraço — grip que segura lapela. Falha na última
+                série
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">1 × 10–12</div>
+              <div class="ex-rpe">falha</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sl">Core + Cardio</div>
+        <div class="ex-list">
+          <div class="ex core">
+            <div>
+              <div class="ex-name">Toes to bar</div>
+              <div class="ex-note">—</div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × falha</div>
+              <div class="ex-rpe">—</div>
+            </div>
+          </div>
+          <div class="ex cardio">
+            <div>
+              <div class="ex-name">Sprint curto</div>
+              <div class="ex-note">
+                100m no máximo → caminha de volta · 6 repetições. Alternativa:
+                15 seg bike all-out / 45 seg leve
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">6 × 100m</div>
+              <div class="ex-rpe">máximo</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tip">
+          O búlgaro é a fusão entre força unilateral e mobilidade de quadril.
+          Estabilidade do quadril dianteiro em extensão é o que separa um guard
+          player bom de um excelente.
+        </div>
+      </div>
+
+      <!-- ── FB4 ── -->
+      <div id="s-fb4" class="session">
+        <div class="session-title">FB4 — SÁBADO</div>
+        <div class="session-focus">
+          Hip thrust · Supino fechado · OHP top set · Pull-up · Elevação lateral
+        </div>
+
+        <div class="sl">Compostos</div>
+        <div class="ex-list">
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Hip thrust com barra</div>
+              <div class="ex-note">
+                Pausa de 1 seg no topo — glúteo e extensão de quadril explosiva
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 6–8</div>
+              <div class="ex-rpe">RPE 8</div>
+            </div>
+          </div>
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Supino fechado com barra</div>
+              <div class="ex-note">
+                Pegada na largura dos ombros — cotovelos junto ao corpo, peito +
+                tríceps
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 5–6</div>
+              <div class="ex-rpe">RPE 8–9</div>
+            </div>
+          </div>
+          <div class="ex main">
+            <div>
+              <div class="ex-name">OHP com barra — top set semanal</div>
+              <div class="ex-note">
+                Vai no máximo — PR attempt a cada 3–4 semanas no sábado
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">1 × 3–5</div>
+              <div class="ex-rpe">RPE 9–10</div>
+            </div>
+          </div>
+          <div class="ex main">
+            <div>
+              <div class="ex-name">Pull-up (pegada neutra se disponível)</div>
+              <div class="ex-note">
+                Fecha a puxada da semana — lastrada se já domina o peso corporal
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 4–5</div>
+              <div class="ex-rpe">RPE 8–9</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sl">Ombro</div>
+        <div class="ex-list">
+          <div class="ex">
+            <div>
+              <div class="ex-name">Elevação lateral com halteres</div>
+              <div class="ex-note">
+                Deltóide médio — único isolamento de ombro da semana
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × 12–15</div>
+              <div class="ex-rpe">RPE 7–8</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sl">Core + Cardio</div>
+        <div class="ex-list">
+          <div class="ex core">
+            <div>
+              <div class="ex-name">Toes to bar</div>
+              <div class="ex-note">
+                Última sessão da semana — dá tudo nas duas séries
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">2 × falha</div>
+              <div class="ex-rpe">—</div>
+            </div>
+          </div>
+          <div class="ex cardio">
+            <div>
+              <div class="ex-name">Remo ergométrico — pace forte</div>
+              <div class="ex-note">
+                500m no máximo esforço sustentável · 2 min descanso · 3
+                repetições
+              </div>
+            </div>
+            <div class="ex-right">
+              <div class="ex-sets">3 × 500m</div>
+              <div class="ex-rpe">pace forte</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tip">
+          Sábado é o único dia com top set de OHP e tentativa de PR. Domingo
+          você descansa — então pode dar tudo aqui.
+          <strong>Supino fechado vs dips:</strong> tensão no tríceps é igual ou
+          maior, com progressão semanal de carga vai sentir a diferença em
+          poucas semanas.
+        </div>
+      </div>
+
+      <!-- ── PROGRESSÃO ── -->
+      <div id="s-prog" class="session">
+        <div class="session-title">PROGRESSÃO</div>
+        <div class="session-focus">
+          Low volume só funciona com intensidade honesta
+        </div>
+
+        <div class="prog-grid">
+          <div class="prog-card">
+            <div class="prog-card-title">Terra · Supino · OHP</div>
+            <div class="pr">
+              <span>Adicione por semana</span
+              ><span>+2,5 kg (terra/supino) · +1,25 kg (OHP)</span>
+            </div>
+            <div class="pr">
+              <span>Backoff set</span
+              ><span>80% do top set · 1 série única</span>
+            </div>
+            <div class="pr">
+              <span>Falhou 2× seguidas</span
+              ><span>Deload -10% e reconstrua</span>
+            </div>
+            <div class="pr">
+              <span>PR no OHP</span><span>A cada 3–4 semanas no FB4</span>
+            </div>
+          </div>
+          <div class="prog-card">
+            <div class="prog-card-title">Pull-ups · Chin-ups</div>
+            <div class="pr">
+              <span>Fase 1</span
+              ><span>Dominar 2×6 limpo com peso corporal</span>
+            </div>
+            <div class="pr">
+              <span>Fase 2 — lastrar</span
+              ><span>+2,5 kg/semana no colete ou halter</span>
+            </div>
+            <div class="pr">
+              <span>Frequência</span
+              ><span>4× por semana · pegada varia a cada sessão</span>
+            </div>
+          </div>
+          <div class="prog-card">
+            <div class="prog-card-title">Zercher · Búlgaro</div>
+            <div class="pr">
+              <span>Zercher</span
+              ><span>+2,5 kg/semana após dominar a posição</span>
+            </div>
+            <div class="pr">
+              <span>Búlgaro</span
+              ><span>+1–2 kg/semana · amplitude antes de carga</span>
+            </div>
+            <div class="pr">
+              <span>Deload geral</span
+              ><span>A cada 8 semanas · 1 semana com 60% do volume</span>
+            </div>
+          </div>
+          <div class="prog-card">
+            <div class="prog-card-title">Isolamentos</div>
+            <div class="pr">
+              <span>Rosca · tríceps · martelo</span
+              ><span>Sobe quando bate o topo da faixa com boa forma</span>
+            </div>
+            <div class="pr">
+              <span>Falha</span
+              ><span>Somente na última série — nunca nas primeiras</span>
+            </div>
+            <div class="pr">
+              <span>Hip thrust</span
+              ><span>+5 kg/semana — o que progride mais rápido</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tip" style="margin-top: 1.25rem">
+          <strong>RPE 9</strong> = sobra 1 repetição. <strong>RPE 10</strong> =
+          falha real. Low volume com RPE 7 é tempo perdido — você precisa de
+          intensidade honesta pra compensar o volume baixo. Se a série pareceu
+          fácil, você não estava no RPE 9.
+        </div>
+      </div>
+
+      <!-- ── RECUPERAÇÃO ── -->
+      <div id="s-rec" class="session">
+        <div class="session-title">RECUPERAÇÃO ATIVA</div>
+        <div class="session-focus">
+          Domingo · 20–30 min · nunca intensidade alta
+        </div>
+
+        <div class="sl">Escolha uma</div>
+        <div class="rec-list ex-list">
+          <div class="ex">
+            <div>
+              <div class="ex-name">
+                Rolar devagar / drilling sem resistência
+              </div>
+              <div class="ex-note">
+                Mantém a memória motora do jiu viva — zero intensidade, só
+                técnica
+              </div>
+            </div>
+            <div class="ex-right"><div class="ex-sets">20 min</div></div>
+          </div>
+          <div class="ex">
+            <div>
+              <div class="ex-name">Yoga ou mobilidade de quadril</div>
+              <div class="ex-note">
+                90/90 hip stretch · pigeon pose · world's greatest stretch — 60
+                seg cada posição
+              </div>
+            </div>
+            <div class="ex-right"><div class="ex-sets">20–25 min</div></div>
+          </div>
+          <div class="ex">
+            <div>
+              <div class="ex-name">Caminhada contínua</div>
+              <div class="ex-note">
+                Ritmo de conversa — aumenta fluxo sanguíneo sem estressar o SNC
+              </div>
+            </div>
+            <div class="ex-right"><div class="ex-sets">30 min</div></div>
+          </div>
+        </div>
+
+        <div class="sl" style="margin-top: 1.5rem">Não negociável</div>
+        <div class="ex-list">
+          <div class="ex">
+            <div>
+              <div class="ex-name">Sono</div>
+              <div class="ex-note">
+                Força cresce no sono, não na academia. Mínimo 7–8h — se dormir
+                mal, reduza a intensidade do treino seguinte
+              </div>
+            </div>
+            <div class="ex-right"><div class="ex-sets">7–8h</div></div>
+          </div>
+          <div class="ex">
+            <div>
+              <div class="ex-name">Proteína diária</div>
+              <div class="ex-note">
+                2g por kg de peso corporal. No off season pode comer num leve
+                superávit — você não está cortando peso
+              </div>
+            </div>
+            <div class="ex-right"><div class="ex-sets">~2g/kg</div></div>
+          </div>
+        </div>
+
+        <div class="tip green" style="margin-top: 1.25rem">
+          <strong>Quando voltar 5× no jiu:</strong> musculação cai pra 2× por
+          semana, só os compostos principais — terra, pull-up, supino, OHP. O
+          jiu assume o volume. Não tente manter os dois a 100% ao mesmo tempo.
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span>OSS 🥋</span>
+    </div>
+
+    <script>
+      function show(id, btn) {
+        document
+          .querySelectorAll(".session")
+          .forEach((s) => s.classList.remove("active"));
+        document
+          .querySelectorAll(".tab")
+          .forEach((t) => t.classList.remove("active"));
+        document.getElementById("s-" + id).classList.add("active");
+        btn.classList.add("active");
+      }
+    </script>
+  </body>
+</html>
